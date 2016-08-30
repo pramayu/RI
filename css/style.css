@@ -33,6 +33,24 @@
 		padding-right: 0px;
 		margin-left: 35px;
 	}
+	.slider_home .carousel .carousel-control {
+		bottom: auto;
+		margin-top: 24%;
+	}
+	.slider_home .carousel .carousel-control.right,
+	.slider_home .carousel .carousel-control.left{
+		background-image: none;
+	}
+	.slider_home .carousel .carousel-control .glyphicon {
+		font-size: 14px;
+		padding: 10px 11px;
+		border-radius: 100%;
+		background-color: rgba(255, 255, 255, .5);
+		border: 1px solid rgba(255, 255, 255, .9);
+		line-height: 1.2;
+		width: 40px;
+		height: 40px;
+	}
 	.slider_home .carousel .inner_caro .item .hover {
 		position: absolute;
 		width: 100%;
@@ -40,7 +58,7 @@
 		background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.5) 60%);
 		z-index: 99;
 		text-align: center;
-		padding-top: 18%;
+		padding-top: 15%;
 	}
 	.slider_home .carousel .inner_caro .item .hover .caption_ {
 		padding: 0px 21%;
@@ -49,8 +67,7 @@
 		color: rgba(255, 255, 255, .7);
 		font-family: 'Concert One', 'Roboto', Helvetica, Arial;
 		font-size: 46px;
-		text-transform: capitalize;
-		font-weight: 700;
+		text-transform: uppercase;
 		line-height: 60px;
 	}
 
@@ -60,12 +77,13 @@
 
 	.slider_home .carousel .inner_caro .item .hover .caption_ .vree .btn_order {
 		padding: 15px 40px;
-		border-radius: 3px;
-		border: 2px solid rgba(255,255,255,.6);
+		border-radius: 4px;
+		border: 1px solid rgba(255,255,255,.6);
 		font-family: Roboto, Helvetica, Arial;
 		font-size: 14px;
 		font-weight: 900;
 		text-decoration: none;
 		color: rgba(255,255,255,.6);
+		background-color: rgba(255, 255, 255, .1);
 	}
 }
