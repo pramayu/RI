@@ -1,3 +1,43 @@
 @media(min-width: 768px){
-	
+	.custom_nav {
+		margin-bottom: 0px;
+		position: absolute;
+		z-index: 999;
+		width: 100%;
+		background-color: transparent;
+		border: none;
+		padding-top: 15px;
+	}
+	.custom_nav .evrt {
+		border-bottom: 1px solid rgba(255,255,255,.4);
+		padding-bottom: 20px;
+	}
+	.custom_nav .container .navbar-header .logo {
+		font-family: 'Concert One', cursive;
+		font-size: 31px;
+		color: #fff;
+		outline: none;
+		letter-spacing: 1px;
+		padding-left: 0;
+	}
+	.custom_nav .container .nav li {
+		padding-left: 20px;
+	}
+	.custom_nav .container .nav li a {
+		font-family: 'Roboto', sans-serif, Helvetica, Arial;
+		font-size: 13px;
+		letter-spacing: .3px;
+		color: #fff;
+		font-weight: 600;
+		padding-top: 25px;
+		padding-right: 0px;
+		margin-left: 35px;
+	}
+	.slider_home .carousel .inner_caro .item .hover {
+		position: absolute;
+		width: 100%;
+		height: 675px;
+		background-image: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.3) 90%);
+		z-index: 99;
+	}
 }
